@@ -15,12 +15,11 @@
 
             <Label
              Text="Gorjeta"/>
-            <Entry
-            x:Name="ValorGorgetalEntry"/>
+            <Label
+             x:Name="ValorGorgetalEntry"/>
 
             <Label
-                x:Name="ValorGorjeta"
-                Text="0.00"/>
+                x:Name="ValorGorjeta"/>
 
             <Label
              Text="Total"/>
@@ -31,7 +30,7 @@
             <Label
              Text="Porcentagem Gorjeta"/>
             <Label
-                x:Name="PorcentagemGLabel"
+                x:Name="PorcentagemLabel"
                 Text="15%"/>
 
             <Slider 
@@ -54,13 +53,13 @@
             
             <Button
                 x:Name="RoundD"
-                Text="Round Down"
+                Text="Arredondar para baixo"
                 Clicked="RoundD_Clicked"
                 HorizontalOptions="Fill"/>
 
             <Button
                 x:Name="RoundU"
-                Text="Round Up" 
+                Text="Arredondar para cima" 
                 Clicked="RoundU_Clicked"
                 HorizontalOptions="Fill"/>
                 
